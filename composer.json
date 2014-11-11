@@ -1,6 +1,6 @@
 {
     "name": "peercode/mail",
-    "description": "Rewrites the mail that is saved to log to also contain subject and description.",
+    "description": "Rewrites the mail that is saved to log to also contains subject and body.",
     "keywords": ["laravel", "log", "mail"],
     "license": "MIT",
     "authors": [
