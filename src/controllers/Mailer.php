@@ -11,7 +11,7 @@ class Mailer extends OriginalMailer{
       $email = implode(", ", array_keys((array) $message->getTo()));
       $body = $message->getBody();
       $subject = $message->getSubject();
-      $this->logger->info("Sending message to: {$email}\n".
+      $this->logger->info("Pretending to send message to: {$email}\n".
               "subject: ".$subject."\n".
               "body: \n".
               " {$body}");
