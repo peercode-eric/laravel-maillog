@@ -1,0 +1,32 @@
+{
+    "name": "peercode/mail",
+    "description": "Rewrites the mail that is saved to log to also contain subject and description.",
+    "keywords": ["laravel", "log", "mail"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peercode",
+            "email": "info@peercode.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "illuminate/mail": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers"
+        ],
+        "psr-0": {
+            "Peercode\\Mail\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.2-dev"
+        }
+    },
+    "minimum-stability": "stable"
+}
